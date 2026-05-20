@@ -38,7 +38,7 @@ const sectionContainer = staggerContainer(0.04);
                 </motion.p>
             </motion.div>
 
-            <div class="grid md:grid-cols-2 gap-10">
+            <div class="grid md:grid-cols-2 gap-8 md:gap-10">
                 <!-- Code editors -->
                 <motion.div
                     :variants="sectionContainer"

@@ -357,13 +357,15 @@ const onHeroScroll = () => {
 
             <!-- Projects & Listening -->
             <div class="grid lg:grid-cols-2 gap-8 lg:gap-10">
-                <ProjectsGrid
+                <div class="min-w-0">
+                    <ProjectsGrid
                     :repos="displayedRepos"
                     :loading="reposLoading"
                     :revalidating="reposRevalidating"
-                />
+                    />
+                </div>
 
-                <div class="space-y-8">
+                <div class="min-w-0 space-y-8">
                     <ListeningStatus
                         :spotify="spotify"
                         :loading="isLoading && !spotify"
@@ -396,10 +398,10 @@ const onHeroScroll = () => {
                                 v-for="post in recentPosts"
                                 :key="post.slug"
                                 :to="{ path: '/blog', query: { post: post.slug } }"
-                                class="group block py-3 border-b border-catppuccin-surface/30 last:border-0"
+                                class="group block py-3 border-b border-catppuccin-surface/30 last:border-0 min-w-0"
                             >
-                                <div class="flex items-center justify-between gap-3">
-                                    <span class="text-catppuccin-text group-hover:text-catppuccin-mauve transition-colors truncate text-sm">
+                                <div class="flex items-center justify-between gap-3 min-w-0">
+                                    <span class="text-catppuccin-text group-hover:text-catppuccin-mauve transition-colors truncate text-sm min-w-0">
                                         {{ post.title }}
                                     </span>
                                     <span class="text-xs text-catppuccin-subtle flex-shrink-0">

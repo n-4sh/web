@@ -166,17 +166,17 @@ const sectionContainer = staggerContainer(0.04);
                         no recent activity
                     </div>
 
-                    <div v-else class="text-sm">
+                    <div v-else class="text-sm min-w-0">
                         <a
                             v-for="(event, i) in events"
                             :key="i"
                             :href="event.repoUrl"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="group block py-3 border-b border-catppuccin-surface/20 last:border-0"
+                            class="group block py-3 border-b border-catppuccin-surface/20 last:border-0 min-w-0"
                         >
-                            <div class="flex items-center justify-between gap-2">
-                                <span class="text-catppuccin-text group-hover:text-catppuccin-mauve transition-colors truncate">
+                            <div class="flex items-center justify-between gap-2 min-w-0">
+                                <span class="text-catppuccin-text group-hover:text-catppuccin-mauve transition-colors truncate min-w-0">
                                     {{ event.repo }}
                                 </span>
                                 <span class="text-xs text-catppuccin-subtle flex-shrink-0">
