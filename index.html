@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en" prefix="og: https://ogp.me/ns#" data-theme="dark">
+    <head>
+        <title>Personal Website | Andrew Fuentes</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="Personal Website | Andrew Fuentes" />
+        <meta
+            name="description"
+            content="Personal portfolio and creative space of Andrew Fuentes, showcasing projects and experiments."
+        />
+        <meta
+            name="keywords"
+            content="andrew, fuentes, personal website, portfolio, developer, creative, digital portfolio"
+        />
+        <meta name="author" content="Andrew Fuentes" />
+
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://andrewfuentes.dev" />
+        <link rel="alternate" type="application/rss+xml" title="Andrew Fuentes blog RSS" href="/rss.xml" />
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://andrewfuentes.dev" />
+        <meta property="og:title" content="Personal Website | Andrew Fuentes" />
+        <meta
+            property="og:description"
+            content="Personal portfolio and creative space of Andrew Fuentes, showcasing projects and experiments."
+        />
+        <meta property="og:image" content="/screenshot.png" />
+        <meta property="og:site_name" content="Andrew Fuentes" />
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://andrewfuentes.dev" />
+        <meta name="twitter:title" content="Personal Website | Andrew Fuentes" />
+        <meta
+            name="twitter:description"
+            content="Personal portfolio and creative space of Andrew Fuentes, showcasing projects and experiments."
+        />
+        <meta name="twitter:image" content="/screenshot.png" />
+
+        <!-- Robots -->
+        <meta name="robots" content="index, follow" />
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Karla:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+        <!-- Accessibility -->
+        <meta name="theme-color" content="#11111b" />
+        <meta name="darkreader-lock" />
+
+        <script>
+            (function() {
+                var t = localStorage.getItem('theme') || 'dark';
+                document.documentElement.setAttribute('data-theme', t);
+                document.documentElement.style.colorScheme = t;
+                var colors = { dark: '#11111b', light: '#dce0e8' };
+                document.querySelector('meta[name="theme-color"]').setAttribute('content', colors[t]);
+            })();
+        </script>
+    </head>
+    <body
+        class="overflow-x-hidden bg-catppuccin-crust text-catppuccin-text font-mono antialiased"
+    >
+        <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[99999] focus:px-3 focus:py-1.5 focus:bg-catppuccin-base focus:text-catppuccin-mauve focus:rounded focus:border focus:border-catppuccin-mauve focus:text-sm">Skip to content</a>
+        <div id="app" role="main"></div>
+        <script type="module" src="/src/main.js" defer></script>
+    </body>
+</html>

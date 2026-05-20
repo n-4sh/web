@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+.vscode/
+dist/
+.env
+CLAUDE.md
+package-lock.json
+AGENTS.md
