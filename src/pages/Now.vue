@@ -175,11 +175,11 @@ const sectionContainer = staggerContainer(0.04);
                             rel="noopener noreferrer"
                             class="group block py-3 border-b border-catppuccin-surface/20 last:border-0 min-w-0"
                         >
-                            <div class="flex items-center justify-between gap-2 min-w-0">
-                                <span class="text-catppuccin-text group-hover:text-catppuccin-mauve transition-colors truncate min-w-0">
+                            <div class="flex flex-col gap-1 min-w-0 sm:flex-row sm:items-center sm:justify-between">
+                                <span class="text-catppuccin-text group-hover:text-catppuccin-mauve transition-colors break-all min-w-0">
                                     {{ event.repo }}
                                 </span>
-                                <span class="text-xs text-catppuccin-subtle flex-shrink-0">
+                                <span class="text-xs text-catppuccin-subtle whitespace-nowrap">
                                     {{ formatRelativeTime(event.date) }}
                                 </span>
                             </div>
