@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO="https://github.com/strafist/clp.git"
+REPO="https://github.com/n-4sh/clp.git"
 INSTALL_DIR="${TMPDIR:-/tmp}/clp-install-$$"
 
 echo "Installing clp..."

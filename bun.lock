@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "lostf1sh.github.io",
+      "name": "n-4sh.github.io",
       "dependencies": {
         "marked": "^17.0.4",
         "motion-v": "^2.0.0",

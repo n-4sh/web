@@ -62,14 +62,14 @@
                         <span class="text-catppuccin-subtle">current focus</span>
                     </router-link>
                     <a
-                        href="https://github.com/strafist"
+                        href="https://github.com/n-4sh"
                         target="_blank"
                         rel="noopener noreferrer"
                         class="group flex items-center gap-3 py-2 hover-lift"
                     >
                         <span class="text-catppuccin-text group-hover:text-catppuccin-mauve transition-colors">github</span>
                         <span class="text-catppuccin-subtle/40">—</span>
-                        <span class="text-catppuccin-subtle">strafist</span>
+                        <span class="text-catppuccin-subtle">n-4sh</span>
                     </a>
                 </div>
             </motion.div>

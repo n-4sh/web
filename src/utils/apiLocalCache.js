@@ -1,4 +1,4 @@
-const PREFIX = "f1sh.api.";
+const PREFIX = "n-4sh.api.";
 
 export const CACHE_KEYS = {
   GITHUB_REPOS: "github.repos.merged.v1",
@@ -35,7 +35,7 @@ export function writeLocalCache(key, value) {
   }
 }
 
-const SESSION_PREFIX = "f1sh.sess.";
+const SESSION_PREFIX = "n-4sh.sess.";
 
 export function readSessionCache(key) {
   if (typeof sessionStorage === "undefined") return null;

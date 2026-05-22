@@ -1,4 +1,4 @@
-const GITHUB_USERNAME = "strafist";
+const GITHUB_USERNAME = "n-4sh";
 
 export const getAllReposWithLanguages = async () => {
   try {

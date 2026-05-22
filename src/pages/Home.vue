@@ -76,9 +76,9 @@ watch(
 
 const externalToFetch = [];
 const pinnedOrder = [
-    "strafist/wtf-code",
-    "strafist/unfollowr",
-    "strafist/discwipe",
+    "n-4sh/wtf-code",
+    "n-4sh/unfollowr",
+    "n-4sh/discwipe",
 ];
 const pinnedSet = new Set(pinnedOrder);
 
@@ -247,7 +247,7 @@ const onHeroScroll = () => {
                     </router-link>
                     <span class="text-catppuccin-surface">·</span>
                     <a
-                        href="https://github.com/strafist"
+                        href="https://github.com/n-4sh"
                         target="_blank"
                         rel="noopener noreferrer"
                         class="text-catppuccin-subtle hover:text-catppuccin-text transition-colors link-underline"

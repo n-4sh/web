@@ -4,7 +4,7 @@ import { markReady } from "@/services/preloader";
 import { readLocalCache, writeLocalCache, CACHE_KEYS } from "@/utils/apiLocalCache";
 
 const API_KEY = import.meta.env.VITE_LASTFM_API_KEY || "c9ee964e5a0bffdb2aba28397f852bbf";
-const USER = "molishu";
+const USER = "nash";
 const BASE_URL = "https://ws.audioscrobbler.com/2.0/";
 const POLL_INTERVAL = 60_000;
 

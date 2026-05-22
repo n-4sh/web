@@ -31,7 +31,7 @@ const isActive = (item) => route.name === item.name;
         </router-link>
         <span class="text-catppuccin-surface">·</span>
         <a
-            href="https://github.com/strafist"
+            href="https://github.com/n-4sh"
             target="_blank"
             rel="noopener noreferrer"
             class="text-catppuccin-subtle hover:text-catppuccin-text transition-colors link-underline"

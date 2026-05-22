@@ -288,7 +288,7 @@ const viewAnimate = { opacity: 1, y: 0 };
                         <span class="text-catppuccin-subtle/60">follow without email</span>
                         <div class="flex items-center gap-3">
                             <a href="/rss.xml" class="text-catppuccin-subtle hover:text-catppuccin-mauve transition-colors" target="_blank" rel="noopener noreferrer">rss</a>
-                            <a href="https://github.com/strafist" class="text-catppuccin-subtle hover:text-catppuccin-mauve transition-colors" target="_blank" rel="noopener noreferrer">github</a>
+                            <a href="https://github.com/n-4sh" class="text-catppuccin-subtle hover:text-catppuccin-mauve transition-colors" target="_blank" rel="noopener noreferrer">github</a>
                         </div>
                     </div>
 
@@ -448,7 +448,7 @@ const viewAnimate = { opacity: 1, y: 0 };
                                 <span class="text-catppuccin-subtle/60">follow along</span>
                                 <div class="flex items-center gap-3">
                                     <a href="/rss.xml" class="text-catppuccin-subtle hover:text-catppuccin-mauve transition-colors" target="_blank" rel="noopener noreferrer">rss</a>
-                                    <a href="https://github.com/strafist" class="text-catppuccin-subtle hover:text-catppuccin-mauve transition-colors" target="_blank" rel="noopener noreferrer">github</a>
+                                    <a href="https://github.com/n-4sh" class="text-catppuccin-subtle hover:text-catppuccin-mauve transition-colors" target="_blank" rel="noopener noreferrer">github</a>
                                 </div>
                             </div>
 
